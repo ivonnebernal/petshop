@@ -2,20 +2,41 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Petshop</title>
 </head>
 <body>
-    <header>
+    <div class="contenedor">
+        <aside>
+            <header>
+                <h1 class="logo">ChloePetShop</h1>
+                
+            </header>
+            <ul class="menu">
 
-    </header>
-    <section>
-        <p>Hola! Mi proyecto se basa una tienda tipo Petshop En esta primera entrega se hizo algo basico, donde el primera instancia se debe escribir el producto que se busca, por consiguiente el programa le mostrata el precio del producto y luego le preguntara si quiere continuar agregando productos al carrito, a lo que se debe responder con "si" o  "no". Una vez que no se agregan mas elementos al carrito el programa arroja el total en pantalla.</p>
-    </section>
-    <footer>
+                <li><button id="todos" class="boton-menu boton-categoria active">Productos</button></li>
+                <li><button id="collares"  class="boton-menu boton-categoria" >Collares</button> </li>
+                <li><button id="correa" class="boton-menu boton-categoria">Correas</button></li>
+                <li><button id="ropa" class="boton-menu boton-categoria">Ropa</button></li>
 
-    </footer>
-    <script src="main.js"></script>
+                <li><a class="boton-menu boton-carrito" href="./carrito.html"><i class="bi bi-cart"></i>Carrito <span id="numerito" class="contador">0</span></a></li>
+            </ul>
+            <footer>
+                <p class="texto-footer">© ChloePetShop 2024</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal"> Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+                
+            </div>
+        </main>
+    </div>
+
+    
+    <script src="main.js"></script> 
 </body>
 </html>
