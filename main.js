@@ -44,6 +44,36 @@ const productos = [
 
     },
     {
+        id:"collar-01",
+        titulo: "Collar de cuero",
+        imagen: "https://acdn.mitiendanube.com/stores/001/350/040/products/2collar1-ef30697737e933604f16033071957089-640-0.jpg",
+        precio: 3500,
+        categoria: {
+            nombre:"collar",
+            id: "collar"
+        }
+    },
+    {
+        id:"collar-02",
+        titulo: "Collar de cuero corazon",
+        imagen: "https://t1.ea.ltmcdn.com/es/posts/7/1/3/tipos_de_collares_para_perros_3317_orig.jpg",
+        precio: 4500,
+        categoria: {
+            nombre:"collar",
+            id: "collar"
+        }
+    },
+    {
+        id:"collar-03",
+        titulo: "Collar de tela",
+        imagen: "https://http2.mlstatic.com/D_NQ_NP_829905-MLA41796978517_052020-O.webp",
+        precio: 2000,
+        categoria: {
+            nombre:"collar",
+            id: "collar"
+        }
+    },
+    {
         id:"ropa-01",
         titulo: "Disfraz panda",
         imagen: "https://d28hi93gr697ol.cloudfront.net/071e89ac-46a5-8ab3/img/Producto/1429/01-1612902130-6321277e9d978.jpeg",
@@ -54,6 +84,27 @@ const productos = [
         }
 
     },
+    {
+        id:"ropa-02",
+        titulo: "Buzo Verde",
+        imagen: "https://http2.mlstatic.com/D_NQ_NP_716873-MLA70138406751_062023-O.webp",
+        precio: 8000,
+        categoria: {
+            nombre:"ropa",
+            id: "ropa"
+        }
+    },
+    {
+        id:"ropa-03",
+        titulo: "Disfraz Harry Potter",
+        imagen: "https://d28hi93gr697ol.cloudfront.net/071e89ac-46a5-8ab3/img/Producto/9e98e238-f2d5-4406-b80a-7961b7edb5c6/harry-bordeaux-6-6321335cee027.jpg",
+        precio: 10000,
+        categoria: {
+            nombre:"ropa",
+            id: "ropa"
+        }
+    },
+
 ]
 
 const contenedorProductos = document.getElementById('contenedor-productos')

@@ -27,6 +27,11 @@ a{
     grid-template-columns: 1fr 4fr;
     background-color: var(--clr-verde-fuerte);
 }
+header{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
 aside{
     display: flex;
     flex-direction: column;
